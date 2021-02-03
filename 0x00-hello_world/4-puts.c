@@ -4,8 +4,8 @@
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-	pust("Programming is like building a multilingual puzzle"\n);
+	pust("/Programming is like building a multilingual puzzle\n");
 	return(0);
 }
