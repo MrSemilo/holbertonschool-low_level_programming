@@ -1,16 +1,17 @@
+#include <stdlib.h>
 #include <stdio.h>
-#include <stdlib-h>
 #include <time.h>
+
 /**
- * main - Imprimir numeros
+ * main - Imprimir abecadario con letras mayusculas
  * Return: 0 for success
  */
 int main(void)
 {
-char N = '0';
+char ch = '0';
 
-for (N = '0'; N <= '9'; ch++)
-putchar(N);
+for (ch = '0'; ch <= '9'; ch++)
+putchar(ch);
 putchar('\n');
 return (0);
 }
