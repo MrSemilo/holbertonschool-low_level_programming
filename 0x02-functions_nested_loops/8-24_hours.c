@@ -1,5 +1,10 @@
 #include "holberton.h"
-
+/*
+* jack_bauder: pressing the minutes of the clock
+*
+* return: no
+*
+*/
 int jack_bauer(void);
 {
 int a, b, c, d;
