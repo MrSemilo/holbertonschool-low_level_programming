@@ -2,7 +2,10 @@
 #include "holberton.h"
 
 /**
-* print_to_98- prints to 98                                                                                             * @n: number                                                                                                            * Return:n                                                                                                              */ 
+* print_to_98- prints to 98
+* @n: number
+* Return:n
+*/
 
 void print_to_98(int n)
 {
