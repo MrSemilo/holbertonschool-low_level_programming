@@ -1,12 +1,11 @@
 #include "holberton.h"
 
-/*
-* jack_bauder - Prints the minutes of a day
-*
-* Return: no return
-*
-*/
-void jack_bauer(void);
+/**
+ * jack_bauer - Prints the minutes of a day
+ *
+ * Return: no return
+ */
+void jack_bauer(void)
 {
 int a, b, c, d;
 
