@@ -1,11 +1,12 @@
 #include "holberton.h"
+
 /*
-* jack_bauder: pressing the minutes of the clock
+* jack_bauder - Prints the minutes of a day
 *
-* return: no
+* Return: no return
 *
 */
-int jack_bauer(void);
+void jack_bauer(void);
 {
 int a, b, c, d;
 
@@ -18,7 +19,6 @@ for (c = 48; c <= 53; c++)
 for (d = 48; d <= 57; d++)
 {
 if (a >= 50 && b >= 52)
-
 break;
 _putchar(a);
 _putchar(b);
