@@ -7,11 +7,9 @@
 * @b : number
 * return: result
 */
-int add(int a, int b):
+int add(int a, int b);
 {
-int result
-{
-rsult = a + b:
+int result;
+rsult = a + b;
 return (result);
-}
 }
