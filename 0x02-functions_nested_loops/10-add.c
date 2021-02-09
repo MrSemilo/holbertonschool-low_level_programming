@@ -1,15 +1,15 @@
 #include "holberton.h"
-/*
-* add - sum between
-*
-* @a : number
-*
-* @b : number
-* return: result
-*/
+/**
+ * add - sum between
+ *
+ * @a : number
+ *
+ * @b : number
+ * return: result
+ */
 int add(int a, int b);
 {
 int result;
-rsult = a + b;
+result = a + b;
 return (result);
 }
