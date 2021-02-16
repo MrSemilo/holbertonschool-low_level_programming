@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * _strlen - This function 
+ * _strlen - This function
  *
- * @s: this is my 
+ * @s: this is my
  *
- * Return: the las 
+ * Return: the las
  */
 
 int _strlen(char *s)
