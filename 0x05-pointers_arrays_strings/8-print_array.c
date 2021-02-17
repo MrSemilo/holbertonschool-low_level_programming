@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
  * print_array - This show the information about array
@@ -11,11 +11,11 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", i[b]);
+		_printf("%d", i[b]);
 		if (i != (n - 1))
 		{
 			printf(", ");
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
