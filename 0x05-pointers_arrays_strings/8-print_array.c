@@ -1,21 +1,23 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
- * print_array - This show the information about array
+ * print_array - This show the information about arrays
  * @a: This is the entry array
- * @n: lenght of the array
+ * @n: This is the entry lenght of the array
+ *
+ *
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int b;
 
-	for (i = 0; i < n; i++)
+	for (b = 0; b < n; b++)
 	{
-		_printf("%d", i[b]);
-		if (i != (n - 1))
+		printf("%d", a[b]);
+		if (b != (n - 1))
 		{
 			printf(", ");
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
