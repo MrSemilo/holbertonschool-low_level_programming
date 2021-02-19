@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strcat - concatenates two strings.
+ * _strncat - concatenates two strings.
  * @src: array with the string source
  * @dest: pointer where the text is append
  * @n: num of bytes
