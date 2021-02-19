@@ -9,13 +9,17 @@
 void reverse_array(int *a, int n)
 {
 	int i;
-	int longitud;
+	int log;
+	int x;
 
-	for (x = 0; x < longitud / 2; x++)
+	x = 0;
+	log = n -1;
+	while (x < log)
 	{
 		i = a[x];
-		a[x] = a[longitud - 1];
-		n[longitud - 1] = i;
-		logitud--;
+		a[x] = a[log];
+		a[log] = i;
+		x++;
+		log--;
 	}
 }
