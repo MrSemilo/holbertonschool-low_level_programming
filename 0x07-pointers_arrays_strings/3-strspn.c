@@ -4,22 +4,22 @@
  * _strspn - gets the length of a prefix substring
  * @s: string
  * @accept: string
- * Return: i
+ * Return: c
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int a, e, i;
+	unsigned int a, b, c;
 
-	i = 0; /*i is the characters compared*/
+	c = 0; /*c is the number of characters compared*/
 
 	for (a = 0; s[a]; a++)
 	{
-		for (e = 0; accept[e] != '\0'; e++)
+		for (b = 0; accept[b] != '\0'; b++)
 		{
-			if (s[a] == accept[e])
+			if (s[a] == accept[b])
 			{
-				i++;
+				c++;
 				break;
 			}
 		}
@@ -28,5 +28,5 @@ unsigned int _strspn(char *s, char *accept)
 			break;
 		}
 	}
-	return (i);
+	return (c);
 }
