@@ -20,14 +20,14 @@ unsigned int a = 0, b = 0, i;
 	if (s2 == 0)
 		s2 = "";
 	while (s1[a])
-    {
+	{
 		a++;
-    }
+	}
 	while (s2[b])
-    {
-    	b++;
-    }
-    a++;
+	{
+		b++;
+	}
+	a++;
 	if (n >= b)
 		n = b;
 	str = malloc(sizeof(char) * (a + n));
