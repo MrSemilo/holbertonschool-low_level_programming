@@ -15,9 +15,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	char *ptr;
 	unsigned int i = 0;
 
-	if (size == 0)
-		return (0);
-	if (nmenb == 0)
+	if (nmemb && size == 0)
 		return (0);
 	ptr = malloc(nmemb * size);
 	if (ptr == 0)
