@@ -1,5 +1,5 @@
-#include "function_pointers.h"
 #include <stdio.h>
+#include "function_pointers.h"
 /**
  * array_iterator - print array in Hexadecimal and Integer
  * @array: collection of elements of the type same
