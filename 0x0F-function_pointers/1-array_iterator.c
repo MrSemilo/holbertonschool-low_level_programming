@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "function_pointers.h"
 /**
  * array_iterator - print array in Hexadecimal and Integer
@@ -16,7 +15,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 	if (!array)
 		return;
 	if (!action)
-		return
+		return;
 
 	while (i < size)
 	{
