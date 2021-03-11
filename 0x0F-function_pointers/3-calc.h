@@ -27,5 +27,4 @@ int op_mod(int a, int b);
 /*  function prototype that will  determine which function will call */
 int (*get_op_func(char *s))(int, int);
 
-#endif
 #endif 
