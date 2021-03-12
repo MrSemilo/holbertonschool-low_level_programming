@@ -22,5 +22,5 @@ else
 printf("%d%s", va_arg(c, int), separator);
 }
 printf("\n");
-va_end (c);
+va_end(c);
 }
