@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * get_bit- prints the binary representation of a number.
+ * set_bit- prints the binary representation of a number.
  *
  * @n: number.
  *
@@ -10,11 +10,12 @@
  * Return: value of the bit at index index or -1 if an error occured
  */
 
-int get_bit(unsigned long int n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
 	if (index > sizeof(n) * 3)
 		return (-1);
 
-	else
-		return ((n >> index) & 1);
+	*n ^= (1 << index);
+	return (1);
+
 }
