@@ -24,7 +24,7 @@ let = open(filename, O_RDONLY);
 if (let == -1)
 return (0);
 
-i = read(let, buffer, letters);
+i = read(let, buf, letters);
 
 if (i == -1)
 return (0);
