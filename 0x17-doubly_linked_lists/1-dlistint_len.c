@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_dlistint_len - Prototype.
+ * dlistint_len - Prototype.
  * @h: head.
  * Return: count.
  */
