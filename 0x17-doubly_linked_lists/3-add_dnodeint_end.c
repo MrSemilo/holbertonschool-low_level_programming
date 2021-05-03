@@ -1,11 +1,11 @@
 #include "lists.h"
+
 /**
  * add_dnodeint_end - Prototype.
  * @head: head.
  * @n: node.
  * Return: count.
  */
-
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
         dlistint_t *_node, *new_node;
@@ -17,8 +17,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
         if (new_node == NULL)
                 return (NULL);
         new_node->n = n;
-        new_node->next = NULL;
-
+        new_node->next = NULL
         _node = *head;
 
         if (*head == NULL)
